@@ -12,6 +12,8 @@
     "deploy": "echo erc20faucet.com > static/CNAME && yarn generate && push-dir --remote origin --dir=dist --branch=gh-pages --cleanup"
   },
   "dependencies": {
+    "node-sass": "^4.13.1",
+    "sass-loader": "^7.1.0",
     "@mycrypto/gas-estimation": "^1.1.0",
     "@myetherwallet/mewconnect-web-client": "^2.1.22",
     "@nuxtjs/google-analytics": "^2.2.0",
@@ -44,8 +46,6 @@
     "eslint-plugin-promise": ">=4.0.1",
     "eslint-plugin-standard": ">=4.0.0",
     "eslint-plugin-vue": "^5.2.2",
-    "node-sass": "^4.13.1",
-    "nodemon": "^1.18.9",
-    "sass-loader": "^7.1.0"
+    "nodemon": "^1.18.9"
   }
 }
