@@ -418,6 +418,20 @@ const networkConfig = {
     gasPrice: { fast: 5, low: 1, custom: 2, standard: 1.5 },
     smartContractPollTime: 15,
     isEIP1559Supported: false
+  },
+  netId97: {
+    verifyingContract: '0x3D5a28D5A3Ff1E1151064648B1Fe95BC30815c06',
+    rpcCallRetryAttempt: 10,
+    currencyName: 'BNB',
+    explorerUrl: {
+      tx: 'https://testnet.bscscan.com/tx',
+      address: 'https://testnet.bscscan.com/address'
+    },
+    networkName: 'BSC Testnet',
+    rpcUrl: `https://data-seed-prebsc-1-s2.binance.org:8545`,
+    gasPrice: { fast: 21, low: 1, standard: 5 },
+    smartContractPollTime: 15,
+    isEIP1559Supported: true
   }
 }
 
