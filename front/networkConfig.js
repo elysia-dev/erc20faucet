@@ -432,6 +432,20 @@ const networkConfig = {
     gasPrice: { fast: 21, low: 1, standard: 5 },
     smartContractPollTime: 15,
     isEIP1559Supported: true
+  },
+  netId1001: {
+    verifyingContract: '0x492F11670D9D39C343419BF1865AeEC0D8EC32C2',
+    rpcCallRetryAttempt: 10,
+    currencyName: 'Klay',
+    explorerUrl: {
+      tx: 'https://scope.klaytn.com/txs',
+      address: 'https://scope.klaytn.com/account'
+    },
+    networkName: 'Klaytn Baobab Testnet',
+    rpcUrl: `https://public-en-baobab.klaytn.net`,
+    gasPrice: { fast: 21, low: 1, standard: 5 },
+    smartContractPollTime: 15,
+    isEIP1559Supported: true
   }
 }
 
